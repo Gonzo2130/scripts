@@ -15,8 +15,8 @@ def calculateBMI(w, h):
    
     #end of function printBMIDetails()
 
-weight = eval(input("Enter your weight in pounds: "))
-height = eval(input("Enter your height in inches: "))
+weight = float(input("Enter your weight in pounds: "))
+height = float(input("Enter your height in inches: "))
 
 result = calculateBMI(weight, height)
 print("BMI is", result)
